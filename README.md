@@ -3,7 +3,7 @@
 Welcome to my Knowledge Garden! This repository is a collection of my thoughts, learnings, and projects.
 
 ## What I'm Reading
-- **Books**: A list of the books I'm currently reading and insights gained.
+- [Books I am Reading](books/reading/README.md)
 - **Blogs**: Interesting articles and blog posts I've come across.
 
 ## My Projects
@@ -20,9 +20,8 @@ This repository is organized to help you share and grow your learning, thoughts,
 
 ## Structure
 
-- `books/`
-  - `reading/` — Books you are currently reading
-  - `read/` — Books you have finished
+- [Books I am Reading](books/reading/README.md)
+- `books/read/` — Books you have finished
 - `notes/` — Zettelkasten-style notes
 - `thoughts/` — Personal reflections and thoughts
 - `ideas/` — New ideas and brainstorms
