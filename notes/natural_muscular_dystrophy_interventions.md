@@ -1,3 +1,8 @@
+---
+layout: note
+title: "Natural Muscular Dystrophy Interventions"
+section: notes
+---
 # Natural Interventions for Muscular Dystrophy: A Comprehensive Evidence-Based Review
 
 > **Cardiac Warning:** In Duchenne and Becker muscular dystrophy (DMD/BMD), dilated cardiomyopathy develops in nearly all patients by adulthood and is the **leading cause of death**. This article addresses both skeletal muscle preservation AND cardiac protection — because the heart is often the most dangerous casualty.

@@ -1,0 +1,40 @@
+title: "Learning Garden"
+description: "My personal knowledge garden — reading notes, zettelkasten, ideas"
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+  parse_span_html: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor", ".git", ".github"]
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "notes"
+      type: "pages"
+    values:
+      layout: "note"
+  - scope:
+      path: "books"
+      type: "pages"
+    values:
+      layout: "note"
+  - scope:
+      path: "ideas"
+      type: "pages"
+    values:
+      layout: "note"
+  - scope:
+      path: "thoughts"
+      type: "pages"
+    values:
+      layout: "note"
+  - scope:
+      path: "zettelkasten"
+      type: "pages"
+    values:
+      layout: "note"
