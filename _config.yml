@@ -1,40 +1,67 @@
+# Jekyll Configuration
 title: "Learning Garden"
 description: "My personal knowledge garden — reading notes, zettelkasten, ideas"
+baseurl: "/learning-garden"
+url: "https://umarlateef.github.io"
 markdown: kramdown
 kramdown:
   parse_block_html: true
   parse_span_html: true
   hard_wrap: false
   syntax_highlighter: rouge
-exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor", ".git", ".github"]
+
+# Permalinks - generate .html from .md files
+permalink: pretty
+
+# Exclude files not needed for building
+exclude: ["Gemfile", "Gemfile.lock", "node_modules", "vendor", ".git", ".github", ".vscode"]
+
+# Default front matter for pages
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
       layout: "default"
+      permalink: /:path/
   - scope:
       path: "notes"
       type: "pages"
     values:
       layout: "note"
+      permalink: /notes/:basename.html
   - scope:
       path: "books"
       type: "pages"
     values:
       layout: "note"
-  - scope:
-      path: "ideas"
-      type: "pages"
-    values:
-      layout: "note"
+      permalink: /books/:basename.html
   - scope:
       path: "thoughts"
       type: "pages"
     values:
       layout: "note"
+      permalink: /thoughts/:basename.html
   - scope:
       path: "zettelkasten"
       type: "pages"
     values:
       layout: "note"
+      permalink: /zettelkasten/:basename.html
+  - scope:
+      path: "ideas"
+      type: "pages"
+    values:
+      layout: "note"
+      permalink: /ideas/:basename.html
+  - scope:
+      path: "books/reading"
+      type: "pages"
+    values:
+      layout: "note"
+      permalink: /books/reading/:basename.html
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
