@@ -5,6 +5,6 @@ section: books
 ---
 # Books
 
-- [Inspired by Marty Cagan](reading/inspired.md)
-- [Platform Engineering](reading/platform-engineering.md)
-- [Working Backwards](reading/working-backwards.md)
+- [Inspired by Marty Cagan](reading/inspired.html)
+- [Platform Engineering](reading/platform-engineering.html)
+- [Working Backwards](reading/working-backwards.html)

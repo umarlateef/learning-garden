@@ -5,4 +5,4 @@ section: notes
 ---
 # Notes
 
-- [Natural Muscular Dystrophy Interventions](natural_muscular_dystrophy_interventions.md)
+- [Natural Muscular Dystrophy Interventions](natural_muscular_dystrophy_interventions.html)
