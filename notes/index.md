@@ -1,7 +1,8 @@
 ---
-layout: default
-title: "Notess"
+layout: note
+title: "Notes"
+section: notes
 ---
-# Notess
+# Notes
 
 - [Natural Muscular Dystrophy Interventions](natural_muscular_dystrophy_interventions.md)

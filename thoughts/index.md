@@ -1,6 +1,8 @@
 ---
-layout: default
-title: "Thoughtss"
+layout: note
+title: "Thoughts"
+section: thoughts
 ---
-# Thoughtss
+# Thoughts
 
+_No notes yet._

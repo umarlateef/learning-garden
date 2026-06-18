@@ -1,6 +1,10 @@
 ---
-layout: default
-title: "Bookss"
+layout: note
+title: "Books"
+section: books
 ---
-# Bookss
+# Books
 
+- [Inspired by Marty Cagan](reading/inspired.md)
+- [Platform Engineering](reading/platform-engineering.md)
+- [Working Backwards](reading/working-backwards.md)

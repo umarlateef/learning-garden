@@ -1,6 +1,8 @@
 ---
-layout: default
-title: "Ideass"
+layout: note
+title: "Ideas"
+section: ideas
 ---
-# Ideass
+# Ideas
 
+_No ideas yet._

@@ -1,6 +1,8 @@
 ---
-layout: default
-title: "Zettelkastens"
+layout: note
+title: "Zettelkasten"
+section: zettelkasten
 ---
-# Zettelkastens
+# Zettelkasten
 
+_No notes yet._
